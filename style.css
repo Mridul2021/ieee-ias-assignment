@@ -1,0 +1,97 @@
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #c58181; */
+    background-image: url(./assets/pexels.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-top: 5rem;
+    color: #444;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    color: #666;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  /* Status Bar Styles */
+  
+  #status-bar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #status-bar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  #status-bar a:hover {
+    background-color: #444;
+  }
+  
+  /* Time Table Styles */
+  
+  #time-table-section table {
+    border-collapse: collapse;
+    margin: 2rem auto;
+  }
+  
+  #timetable-section th,
+  #timetable-section td {
+    border: 1px solid #444;
+    padding: 0.5rem;
+  }
+  
+  #timetable-section th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Movie Trailer Styles */
+  
+  #movie-trailer-section iframe {
+    width: 100%;
+    height: 600px;
+    margin: 2rem 0;
+  }
+  
+ /* Get in Touch Styles */
+
+#get-in-touch-section p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #333;
+  }
+  
+  #get-in-touch-section p:first-of-type {
+    margin-top: 2rem;
+  }
+  
+  
